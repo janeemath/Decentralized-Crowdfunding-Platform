@@ -60,6 +60,16 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: milestone-tracking
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/milestone-tracking.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: pledge-management
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/pledge-management.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: project-listing
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/project-listing.clar
